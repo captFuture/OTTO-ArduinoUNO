@@ -438,8 +438,8 @@ void printWeather()
 {
     calcWeather(); //Go calc all the various sensors
 
-    Serial.println();
-    Serial.print("$,");
+    //Serial.println();
+    //Serial.print("$,");
     Serial.print(winddir);
     Serial.print(", ");
     Serial.print(windspeedmph, 1); //windspeedmph
