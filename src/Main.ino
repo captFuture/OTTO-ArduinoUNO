@@ -441,31 +441,31 @@ void printWeather()
     //Serial.println();
     //Serial.print("$,");
     Serial.print(winddir);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windspeedmph, 1); //windspeedmph
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windgustmph, 1);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windgustdir);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windspdmph_avg2m, 1);
     Serial.print(",");
     Serial.print(winddir_avg2m);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windgustmph_10m, 1);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(windgustdir_10m);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(humidity, 1);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print (temp_h, 2);           //(tempf, 1);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(rainin, 2);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(dailyrainin, 2);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(pressure, 2);
-    Serial.print(", ");
+    Serial.print(",");
     Serial.print(light_lvl, 2);
 
     //Grove - Oxygen Sensor(MIX8410)
